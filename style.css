@@ -84,6 +84,7 @@ main {
 .card-element-container {
   color: #444;
   list-style: none;
+  padding-left: 0px;
 }
 
 .btn {
