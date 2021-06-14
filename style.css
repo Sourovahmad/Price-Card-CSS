@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.pricingTable{
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding:0 0 20px;
+    margin:0 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2),5px 5px rgba(0,0,0,0.05);
+    position: relative;
+    z-index: 1;
+    }
+
+.pricingTable .pricingTable-header{
+    color:#fff;
+    background: linear-gradient(#53A1FF, #5F70F6);
+    padding: 20px 15px 30px;
+    margin: 0 0 40px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.pricingTable .pricingTable-header:after{
+
+    content: '';
+    background: #5F70F6;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    z-index: -1;
+
+}
